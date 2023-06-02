@@ -1,0 +1,544 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: white;
+    font-family: 'gotham';
+}
+
+h5{
+    font-family: 'gotham';
+}
+
+h1{
+    font-family: 'gotham black';
+}
+
+h3{
+    font-family: 'gotham';
+}
+
+h4{
+    font-family: 'gotham';
+}
+
+li{
+    font-family: 'gotham';
+}
+
+.navbar-a{
+    font-size: x-large;
+}
+
+header{
+    background-color: #000037;
+    max-height: 8rem;
+    display: flex;
+    flex-direction:row;
+}
+
+#main-logo-div{
+    width: 25%;
+    padding: 1rem;
+    max-height: 8rem;
+    background-color: #000037;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-link{
+    color: white;
+}
+
+#main-logo{
+    max-width: 90%;
+    max-height: auto;
+    margin: auto;
+}
+
+#search-input{
+    min-height: 3rem;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 45%;
+}
+
+#suggest-icon{
+    color: white;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#suggest-icon-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 60%;
+    min-width: 10rem;
+    padding-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#suggest-a{
+    font-family: 'Gotham Black';
+    font-size: medium;
+}
+
+#search-input{
+    max-height: 30%;
+}
+
+#search-button-div{
+    max-height: inherit;
+    text-align: center;
+}
+
+#search-button{
+    height: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: 'Gotham Black';
+}
+
+#location{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    min-width: 10rem;
+}
+
+#location-div{
+    max-height: 8rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+}
+
+#location-a{
+    margin: auto;
+    max-height: 8rem;
+    object-fit: contain;
+    font-family: 'Gotham Black';
+}
+
+.fa-solid fa-location-dot{
+    color: grey;
+}
+
+#cart{
+    min-width: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+#account{
+    min-width: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+#account-icon{
+    color: white;   
+    padding-top: 1.5rem;
+    margin: auto;
+}
+
+#account-a{
+    margin-top: 1rem;
+    font-size: small;
+    text-align: center;
+    font-family: 'Gotham Black';
+    font-size: medium;
+}
+
+#cart-icon{
+    color: white;   
+    padding-top: 1.5rem;
+    margin: auto;
+}
+
+#cart-a{
+    margin-top: 1rem;
+    font-size: small;
+    text-align: center;
+    font-family: 'Gotham Black';
+    font-size: medium;
+}
+
+.nav-icon{
+    height: 1rem;
+    margin: auto;
+}
+
+#navbar-icon{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .5rem;
+}
+
+#nav-text{
+    font-size: smaller;
+    font-family: 'Gotham';
+    font-weight: 600;
+}
+
+#ad-title{
+    font-family: 'Gotham';
+}
+
+#image-slide{
+    max-height: 20rem;
+    object-fit: cover;
+}
+
+#main-nav{
+    height: 3rem;
+    background-color: #1592fe;
+}
+
+#secondary-nav{
+    height: 3rem;
+    background-color: #1592fe;
+}
+
+#ad-div-wrapper{
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ad-cards{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    width: 25rem;
+    align-items: center;
+    margin: auto;
+}
+
+#footer-div{
+    object-fit: cover;
+    display: flex;
+    
+}
+
+#footer-img{
+    object-fit: cover;
+    max-height: 10rem;
+    min-width: 100%;
+    margin: auto;
+}
+
+
+
+.card-text{
+    font-size: 2rem;
+    font-family: 'Gotham Black';
+}
+
+.title{
+    padding-left: 1rem;
+}
+
+.breadcrumb{    
+    padding: 1rem;
+    margin: auto;
+    font-family: 'gotham';
+}
+
+#categories-search-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#categories-search-subdiv{
+    width: 25%;
+}
+
+#navbar-example3{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#nav-search-title{
+    padding: 1rem;
+}
+
+#sub-search-nav{
+    padding-left: 2rem;
+}
+
+#sub-search-nav-text{
+    color: #1592fe;
+    font-family: 'Gotham';
+}
+
+#nav-search{
+    padding: .5rem;
+}
+
+#clue-icon{
+    padding: .2rem;
+    padding-right: .4rem;
+    margin: auto;
+    font-size: 1.3rem;
+
+}
+
+#new-account{
+    width: 12rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#new-cart{
+    width: 12rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#clue-icon-div{
+    height: inherit;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border: .3px solid black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    object-fit: cover;
+    border-left: none;
+}
+
+#nav-search-input{
+    border-color: black;
+    border-right: none;
+}
+
+#product-div{
+    margin-top: .5rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    float: right;
+
+}
+
+#product-title{
+    padding: 1rem;
+}
+
+#product-ad{
+    max-width: 90%;
+    max-height: auto;
+    margin: auto;
+}
+
+#product-ad-div{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+#shop-div{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#shop-location-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#location-icon{
+    font-size: 1.2rem;
+    margin: auto;
+    padding-bottom: .2rem;
+}
+
+#location-icon-div{
+    width: 2rem;
+    height: inherit;
+    display: flex;
+    
+    text-align: center;
+    padding-top: .2rem;
+    justify-content: center;
+    background-color: white;
+    border: .3px solid black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    object-fit: cover;
+    border-right: none;
+}
+
+#location-search-input{
+    border-left: none;
+    border-color: black;
+}
+
+#pagination-ul{
+    width: 80%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb-text{
+    color: #1592fe;
+}
+
+#list-map-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+#list-div{
+    width: 50%;
+    padding: 1rem;
+    
+}
+
+.list-subdiv{
+    padding: 1rem;
+}
+
+#map-div{
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+    border-left: solid black 1px;
+}
+
+.list-icon-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'gotham';
+    padding: 1rem;
+}
+
+#list-subdiv-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.icon-a{
+    color: black;
+    align-items: center;
+
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'gotham';
+}
+
+#map-icon{
+    align-items: center;
+    justify-content: center;
+}
+
+#list-icon-div{
+    margin-top: 1rem;
+}
+
+.return-a{
+    font-family: 'gotham';
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.welcome-div{
+    padding: 1rem;
+    font-family: 'gotham';
+    font-size: 1.5rem;
+}
+
+.return-div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.register-div{
+    padding: 2rem;
+
+}
+
+.register-subdiv{
+    margin-top: 2rem;
+    width: 60%;
+}
+
+#register-button{
+    margin-top: 1.5rem;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.terms-div{
+    padding: 2rem;
+}
+
+.breadcrumb-text{
+    text-decoration: none;
+}
